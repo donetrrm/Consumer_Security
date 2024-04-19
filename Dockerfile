@@ -5,7 +5,7 @@ FROM node:18.16.0
 WORKDIR /app
 
 # Copia los archivos de la aplicación al contenedor
-COPY ./consumer-ed ./
+COPY ./Consumer_Security ./
 
 # Instala las dependencias
 RUN npm install
